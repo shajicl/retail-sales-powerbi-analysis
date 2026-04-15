@@ -1,64 +1,63 @@
-# 📊 Retail Sales Data Analysis using Power BI
+# Retail Sales Data Analysis using Power BI
 
-## 📌 Project Overview
-This project focuses on analyzing retail sales data using Power BI to uncover business insights related to product performance, customer distribution, and revenue trends across different countries.
+## Project Overview
+In this project, I worked with a retail sales dataset in Power BI to understand how different product categories perform across countries and how revenue trends vary.
 
-The goal was to clean, transform, and model the dataset effectively while ensuring accurate calculations and meaningful visualizations.
-
----
-
-## 🎯 Objectives
-- Analyze product category distribution across countries
-- Identify trends in revenue and customer behavior
-- Build an interactive dashboard for business decision-making
+The main focus was not just building visuals, but making sure the data model behind them was accurate and reliable.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Objectives
+- Analyze how product categories are distributed across different countries
+- Identify revenue trends and customer patterns
+- Build an interactive dashboard that can be used for basic business insights
+
+---
+
+## Tools Used
 - Power BI
+- DAX
 - Data Modeling
-- DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
+- Data Cleaning and Transformation
 
 ---
 
-## ⚠️ Challenges Faced
-During the initial data modeling phase, the use of relationships between tables caused:
+## Challenges Faced
+While working on the data model, I initially created relationships between tables, but that led to several issues:
 
-- Incorrect totals
-- Data duplication
-- Wrong percentage calculations
-- Inconsistent results in visuals
+- Totals were not matching expected values
+- Data duplication occurred in some visuals
+- Percentage calculations were incorrect
+- Some visuals were showing inconsistent results
 
----
-
-## 💡 Solution & Approach
-- Re-evaluated table relationships
-- Used data merging techniques instead of relying solely on relationships
-- Validated calculations manually with raw data
-- Ensured measures were correctly defined using DAX
+This made me realize how sensitive Power BI models are to relationships.
 
 ---
 
-## 📊 Key Learnings
-- Data modeling significantly impacts final results
-- Poor relationships can lead to duplication and incorrect insights
-- Always validate dashboard outputs with raw data
-- Simpler models often produce more accurate results
+## What I Did to Fix It
+To solve these issues, I changed my approach:
+
+- Reviewed and simplified the relationships between tables
+- Used merging where necessary instead of relying completely on relationships
+- Cross-checked results manually with the raw data
+- Carefully rebuilt measures using DAX
 
 ---
 
-## 📷 Dashboard Preview
-(Add your screenshots here)
+## Key Learnings
+- Data modeling plays a major role in getting correct results
+- Incorrect relationships can easily lead to misleading insights
+- It’s important to validate dashboard outputs instead of trusting visuals blindly
 
 ---
 
-## 🚀 How to Use
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore the dashboard using filters and slicers
+## Dashboard
+(Screenshots of the dashboard can be found in the dashboard folder)
 
 ---
 
-## 📌 Conclusion
-This project demonstrates the importance of proper data modeling and validation in Power BI. It highlights how small modeling mistakes can significantly impact business insights.
+## How to Use
+- Download the `.pbix` file
+- Open it in Power BI Desktop
+- Use filters and slicers to explore the data
+
