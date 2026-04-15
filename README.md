@@ -52,6 +52,8 @@ To solve these issues, I changed my approach:
 ---
 
 ## Dashboard
+<img width="1518" height="831" alt="image" src="https://github.com/user-attachments/assets/31f40fd8-52fd-4f6d-94a8-a10ae616492f" />
+
 (Screenshots of the dashboard can be found in the dashboard folder)
 
 ---
